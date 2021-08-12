@@ -1,0 +1,151 @@
+.wrapinner {
+    float: left;
+}
+
+.form-dangnhap {
+    float: left;
+    padding: 20px 20px;
+    background: #ffffff;
+    box-shadow: 1px 1px 17px 3px rgba(204, 204, 204, 1);
+    margin-bottom: 30px;
+}
+
+.step-dangnhap {
+    text-align: center;
+    width: 58%;
+    margin: 0 auto;
+}
+
+ul.nhap li {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+ul.nhap li {
+    color: black;
+}
+
+.so1 {
+    float: left;
+    background-color: #F15B67;
+    color: white;
+    width: 20px;
+    height: 25px;
+}
+
+.so1 p {
+    color: white;
+    font-size: 16px;
+}
+
+.so2 {
+    float: right;
+    background-color: #CCC;
+    width: 20px;
+    height: 25px;
+}
+
+.so2 p {
+    color: black;
+    font-size: 16px;
+}
+
+.boxtrai {
+    width: calc(45% - 1px);
+    border-right: 1px #CCC solid;
+    float: left;
+    margin-right: 35px;
+    padding: 20px;
+}
+
+.boxtrai ul li {
+    list-style: outside;
+}
+
+.boxphai {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.boxphai p {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.boxphai .button {
+    background: #F15B67;
+    border: none;
+    color: #ffffff;
+    padding: 7px 20px;
+    margin-bottom: 20px;
+}
+
+.login-fb {
+    width: 130px;
+    padding: 5px 0;
+    margin: auto;
+    border: 1px solid #00f;
+}
+
+.login-fb span {
+    display: inline-block;
+}
+
+.login-fb .fa-facebook {
+    color: #00f;
+}
+
+@media screen and (max-width:768px) {
+    .wrapinner {
+        width: 100%;
+    }
+    .box-dangnhap {
+        width: 90%;
+        margin: 50px auto;
+    }
+    .gach2 {
+        float: left;
+        border: 1px #CCC solid;
+        width: 110px;
+        margin-top: 15px;
+    }
+    .boxtrai {
+        display: none;
+    }
+    .form-dangnhap {
+        width: 88%;
+    }
+    .boxphai {
+        width: 100%;
+    }
+    .boxphai .input-email {
+        width: 91%;
+        padding: 13px 10px;
+        margin-bottom: 10px;
+        border: 1px solid #CCC;
+        color: #ffc4c4;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .box-dangnhap {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .gach2 {
+        float: left;
+        border: 1px #CCC solid;
+        width: 250px;
+        margin-top: 15px;
+    }
+    .boxphai .input-email {
+        width: 100%;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        border: 1px solid #CCC;
+        color: #ffc4c4;
+    }
+}

@@ -1,0 +1,178 @@
+.container {
+  max-width: 1600px;
+  width: 85%;
+}
+
+.manhinh {
+  min-height: 547px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30pxx;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+}
+
+header {
+  border-bottom: 1px solid #CCC;
+}
+
+img {
+  width: 100%;
+}
+
+.price-old {
+  text-decoration: line-through;
+}
+
+.inputtanggiam {
+  width: 50px;
+  border: #EF4451 1px solid;
+}
+
+.tanggiam {
+  width: 40px;
+  font-size: 21px;
+  text-align: center;
+  border: 1px solid #EF4451;
+}
+
+.muangay {
+  padding: 15px 0 1px;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.phone {
+  background-color: #EF4451;
+  border-radius: 30px;
+  width: 35px;
+  padding: 5px 5px;
+}
+
+.giaohangnhanh {
+  border: #EF4451 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.vascava {
+  color: #EF4451;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.now {
+  color: #7DEDFF;
+  font-size: 35px;
+}
+
+.nhanh {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  height: 200px;
+  width: 200px;
+}
+
+.tk:focus {
+  outline: none;
+}
+
+.dangki a {
+  margin: 0 5px;
+  color: black;
+  position: relative;
+}
+
+.dangki a:hover {
+  text-decoration: none;
+  color: #EF4451;
+}
+
+.tieude {
+  font-size: 30px;
+}
+
+.addtocart {
+  background-color: #EF4451;
+  color: white;
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.img-product {
+  height: 300px;
+  object-fit: cover;
+}
+
+.name-product {
+  color: black;
+  font-size: 21px;
+}
+
+.card-body a:hover {
+  color: #EF4451;
+  font-size: 21px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 3rem;
+}
+
+.giamoi{
+  font-size: 24px;
+}
+
+.img-product-detail {
+  object-fit: cover;
+  height: 600px;
+}
+
+.tieude{
+  color: #EF4451;
+}
+
+.total {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.trolai{
+  font-size: 25px;
+  color: #EF4451;
+}
+
+.name-product {
+  color: black;
+  font-size: 18px;
+}
+
+.card-body a:hover {
+  color: #EF4451;
+  font-size: 18px;
+}
+
+span.qty {
+  margin-right: 10px;
+}
